@@ -1,8 +1,10 @@
 /**
- * 
+ * Weighing Application Module
+ * Provides functionality for product weighing with categorized interface
  */
-/**
- * 
- */
-module Test1 {
+module WeighingApp {
+    requires java.desktop;
+    requires java.base;
+    
+    exports sdf;
 }
